@@ -10,6 +10,8 @@ import { GoBook } from "react-icons/go";
 import { IoCubeOutline } from "react-icons/io5";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { BsCartCheck } from "react-icons/bs";
+import { GrCalculator } from "react-icons/gr";
+import { FaWarehouse } from "react-icons/fa6";
 
 export const tabsData = [
   {
@@ -75,16 +77,11 @@ export const tabsData = [
   {
     id: 13,
     title: "Rechn",
-    icon: <RxDashboard size={16} />,
+    icon: <GrCalculator size={16} />,
   },
   {
     id: 14,
     title: "Lagerverwaltung",
-    icon: <RxDashboard size={16} />,
-  },
-  {
-    id: 15,
-    title: "Verkauf",
-    icon: <RxDashboard size={16} />,
+    icon: <FaWarehouse size={16} />,
   },
 ];

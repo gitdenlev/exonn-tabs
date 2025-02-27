@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, JSX } from "react";
 import { tabsData } from "../data/tabsData";
 import { TiDelete } from "react-icons/ti";
 import { BsPinAngle } from "react-icons/bs";
@@ -10,6 +10,7 @@ interface Tab {
   id: number;
   title: string;
   url: string;
+  icon: JSX.Element;
 }
 
 const Tabs = () => {

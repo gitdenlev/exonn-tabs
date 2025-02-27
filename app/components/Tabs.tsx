@@ -10,7 +10,6 @@ interface Tab {
   id: number;
   title: string;
   url: string;
-  icon: JSX.Element;
 }
 
 const Tabs = () => {
